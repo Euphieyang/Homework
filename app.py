@@ -14,12 +14,12 @@ app = Flask(__name__)
 # 這個服務對應的方法
 def basic_url():
     # return 來回傳使用者要收到的資料
-    return app.send_static_file('travel.html')
+    return app.send_static_file()
 
 
 @app.route("/static/travel", methods=['GET'])
 def map_w01_6():
-    return app.send_static_file('travel.html')
+    return app.send_static_file()
 
 
 if __name__ == "__main__":
