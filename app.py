@@ -17,7 +17,7 @@ def basic_url():
     return '<h1></h1><p>網站架在Heroku上</p>'
 
 
-@app.route("/yufil/travel", methods=['GET'])
+@app.route("/static/travel", methods=['GET'])
 def map_w01_6():
     return app.send_static_file('travel.html')
 
