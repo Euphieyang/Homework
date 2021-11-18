@@ -14,7 +14,7 @@ app = Flask(__name__)
 # 這個服務對應的方法
 def basic_url():
     # return 來回傳使用者要收到的資料
-    return '<h1>Hello Python!</h1><p>網站架在Heroku上</p>'
+    return '<h1></h1><p>網站架在Heroku上</p>'
 
 
 @app.route("/yufil/travel", methods=['GET'])
